@@ -1,12 +1,12 @@
 Summary:	xfindproxy application
 Summary(pl):	Aplikacja xfindproxy
 Name:		xorg-app-xfindproxy
-Version:	0.99.3
+Version:	1.0.1
 Release:	0.1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC3/app/xfindproxy-%{version}.tar.bz2
-# Source0-md5:	b4d27764923c88211abbfaa9f8cf767a
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/app/xfindproxy-%{version}.tar.bz2
+# Source0-md5:	5df3a162429bdd6ce5aea3ca5f6365b8
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -45,6 +45,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ChangeLog
+%doc COPYING ChangeLog
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*.1x*
