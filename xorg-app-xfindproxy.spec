@@ -1,5 +1,5 @@
 Summary:	xfindproxy application
-Summary(pl.UTF-8):   Aplikacja xfindproxy
+Summary(pl.UTF-8):	Aplikacja xfindproxy
 Name:		xorg-app-xfindproxy
 Version:	1.0.1
 Release:	1
