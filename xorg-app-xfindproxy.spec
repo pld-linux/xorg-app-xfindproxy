@@ -1,5 +1,5 @@
 Summary:	xfindproxy application
-Summary(pl):	Aplikacja xfindproxy
+Summary(pl.UTF-8):   Aplikacja xfindproxy
 Name:		xorg-app-xfindproxy
 Version:	1.0.1
 Release:	1
@@ -20,7 +20,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 xfindproxy application.
 
-%description -l pl
+%description -l pl.UTF-8
 Aplikacja xfindproxy.
 
 %prep
