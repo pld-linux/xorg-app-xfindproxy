@@ -1,12 +1,12 @@
 Summary:	xfindproxy application to locate available X11 proxy services
 Summary(pl.UTF-8):	Aplikacja xfindproxy do odnajdywania dostępnych serwisów proxy dla X11
 Name:		xorg-app-xfindproxy
-Version:	1.0.3
+Version:	1.0.4
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xfindproxy-%{version}.tar.bz2
-# Source0-md5:	88bf1e959865a3c5f31ea8efc9fe9e37
+# Source0-md5:	e20e8ea211ce90b38db30745f4645f4d
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
